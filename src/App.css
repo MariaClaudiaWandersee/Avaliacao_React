@@ -36,3 +36,46 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* =================================  Maria  ================================= */
+
+body{
+  color: white;
+  background-color: black;
+  font-family: sans-serif;
+}
+
+.home {
+  text-align: center;
+}
+
+.img-cell {
+  max-width: 100%;
+  height: auto;
+}
+
+.home-img {
+  cursor: pointer;
+}
+
+button {
+  background: #548f11;
+  color: white;
+  border-style: outset;
+  border-color: #548f11;
+  height: 50px;
+  width: 100px;
+  font-family: sans-serif;
+  text-shadow: none;
+  border-radius: 6px;
+}
+
+.sobre {
+  text-align: center !important;
+}
+
+.text-about {
+  text-align: center !important;
+  width: 50%;
+}
