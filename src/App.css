@@ -48,6 +48,9 @@ body{
 
 .home {
   text-align: center;
+  position: relative;
+  top: 233px !important;
+  cursor: pointer;
 }
 
 .img-cell {
@@ -55,11 +58,7 @@ body{
   height: auto;
 }
 
-.home-img {
-  cursor: pointer;
-}
-
-button {
+.comprar {
   background: #548f11;
   color: white;
   border-style: outset;
@@ -69,6 +68,9 @@ button {
   font-family: sans-serif;
   text-shadow: none;
   border-radius: 6px;
+  position: relative;
+  top: -4px;
+  width: 85.5%;
 }
 
 .sobre {
@@ -77,5 +79,23 @@ button {
 
 .text-about {
   text-align: center !important;
-  width: 50%;
+  width: 50%;  
+  position: relative;
+  left: 25%;
+}
+
+.title {
+  text-align: center;
+}
+
+.title-supreme {
+  text-align: center !important;
+}
+
+.contato {
+  text-align: center;
+}
+
+.noticias {
+  text-align: center;
 }
